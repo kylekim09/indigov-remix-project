@@ -1,0 +1,49 @@
+body {
+  color: white;
+  background-color:	#243447;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a {
+  color: white;
+}
+
+span {
+  font-weight: 700;
+}
+
+nav ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 1.5em;
+}
+
+.nav-item {
+  text-decoration: none;
+}
+
+.card-view {
+  margin-left: 5em;
+  margin-right: 5em;
+  margin-top: 2em;
+  max-height: 70vh;
+  overflow-y: scroll;
+}
+.card {
+  text-align: left;
+  border: 1px solid white;
+  border-radius: .5em;
+  padding: .8em;
+  margin-bottom: .5em;
+}
+
+
+.card-body {
+  display:flex;
+}
+
+.card-body > div {
+  width:33%;
+}
